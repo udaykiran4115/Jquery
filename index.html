@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+   <style type="text/css">
+
+      body{
+        
+        background-color: #ccced1;
+        
+      }
+      #feedData,#aboutData{ 
+        padding: 5%;
+        background-color: #ccced1;
+      }
+
+      #feedData li{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 2em;
+        padding-top: 3%;
+      }
+      #aboutData{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+
+      #postedOn{
+        float: right;
+      }
+      #likect {float:left;
+        font-weight: bold;}
+
+      #feedData img{
+        margin-left: 15%;
+      }
+      #home_img{
+        margin-left: 40%;
+        width: 20%;
+        border-radius: 50%;
+      }
+      h1,p{
+        padding: 1%;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+      }
+      #header_text{
+        padding: 1%;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+      }
+
+   </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Jquery Assignment</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a id="facebookBtn" href="#feedData">Feed</a></li>
+      <li><a id="aboutBtn" href="#aboutData">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div id="feedData"> </div>
+
+<div id="aboutData"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
