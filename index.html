@@ -17,28 +17,26 @@
         
       }
       #feedData,#aboutData{ 
-        padding: 5%;
+        padding: 2%;
+        margin-left: 2%;
         background-color: #ccced1;
       }
 
       #feedData li{
         font-family: "Comic Sans MS", cursive, sans-serif;
         font-size: 2em;
-        padding-top: 3%;
+        padding-top: 2%;
       }
       #aboutData{
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
       }
 
       #postedOn{
-        float: right;
+        float: right; 
       }
       #likect {float:left;
         font-weight: bold;}
 
-      #feedData img{
-        margin-left: 15%;
-      }
       #home_img{
         margin-left: 40%;
         width: 20%;
@@ -66,13 +64,21 @@
       <a class="navbar-brand" href="#">Jquery Assignment</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#home">Home</a></li>
+      <li class="active" id="homebtn"><a href="#home">Home</a></li>
       <li><a id="facebookBtn" href="#feedData">Feed</a></li>
       <li><a id="aboutBtn" href="#aboutData">About</a></li>
     </ul>
   </div>
 </nav>
 
+<div id="home" >
+  <h1 id="header"> Uday Kiran K</h1>
+  <img id="home_img" src="Facebook_New_Logo.png" alt="facebook_logo">
+  <h3 id="header_text">Want to know more about me in <a id="aboutBtn" href="#aboutData">Facebook</a></h3>
+  <div>
+    <p>This is a Jquery to get feed and about from my facebook account...</p>
+  </div>
+</div>
 
 <div id="feedData"> </div>
 
